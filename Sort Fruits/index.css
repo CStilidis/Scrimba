@@ -1,0 +1,19 @@
+#content {
+  margin: 25% auto;
+}
+
+div {
+  text-align: center;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+
+#apple-shelf {
+  background-color: tomato;
+}
+
+#orange-shelf {
+  background-color: orange;
+}

@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+}
+
+#num1-el, #num2-el, #sum-el{
+    text-decoration: underline;
+    margin: 10px;
+}
+
+button{
+    margin: 10px 0px;
+}

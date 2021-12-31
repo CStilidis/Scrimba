@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Helvetica Neue", sans-serif;
+      }
+
+      html,
+      body {
+        height: 100vh;
+      }
+    </style>
+    <link rel="stylesheet" href="../css/adjustSize.css" />
+  </head>
+  <body>
+    <div id="container"></div>
+  </body>
+  <script src="../js/anime.min.js"></script>
+  <script src="../js/adjustSize.js"></script>
+  <script src="../js/circleCollision.js"></script>
+  <script>
+    circleManager = new CircleManager("container");
+    circleManager.add("Hello there!");
+    circleManager.add("I'm glad to see you!");
+    circleManager.add("How are you?", 1000);
+    circleManager.add("This is really a fun demo", 2000);
+    circleManager.add("Hope you'll enjoy it!", 5000);
+    circleManager.add("Have fun!", 10000);
+    circleManager.add("Why are you still there !!!!!!!!!", 20000);
+  </script>
+</html>

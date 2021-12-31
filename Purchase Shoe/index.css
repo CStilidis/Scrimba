@@ -1,0 +1,23 @@
+* {
+    margin: 10px;
+}
+
+#error{
+    color: red;
+}
+
+img{
+    width: 200px;
+}
+
+#btn{
+    border-radius: 20px;
+    padding: 10px 15px;
+    border: 1px solid black;
+    font-weight: bold;
+    background-color: white;
+}
+
+#btn:hover{
+    cursor: pointer;
+}
