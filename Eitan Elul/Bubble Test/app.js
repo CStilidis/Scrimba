@@ -1,5 +1,6 @@
-// let content = document.getElementById("input-btn")
+let btnEl = document.getElementById("btn-el");
+let pEl = document.getElementById("p-el");
 
-// content.addEventListener("click", function(){
-//     console.log(content.innerHTML)
-// })
+btnEl.addEventListener("click", function () {
+  pEl.innerHTML = btnEl.value;
+});
