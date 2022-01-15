@@ -1,9 +1,5 @@
-function welcomeToVSCode() {
-  console.log(helloWorld());
-}
+const recipient = "James"
 
-function helloWorld() {
-  return "hello world";
-}
+const email = `Hey ${recipient}! How is it going? Cheers Chris`
 
-welcomeToVSCode();
+console.log(email)
