@@ -1,3 +1,5 @@
+// chrome://extensions/
+
 let myLeads = [];
 
 const ulEl = document.getElementById("ul-el");
@@ -17,7 +19,7 @@ function renderLeads() {
       <a target='_blank' href='${myLeads[i]}'>
         ${myLeads[i]}
       </a>
-    `    
+    `;
   }
   ulEl.innerHTML = listItems;
 }

@@ -1,5 +1,12 @@
-const recipient = "James"
+const recipient = "James";
+const sender = "Christos";
 
-const email = `Hey ${recipient}! How is it going? Cheers Chris`
+const email = `
+    Hey ${recipient}! 
 
-console.log(email)
+    How is it going? 
+
+    Cheers ${sender}
+`;
+
+console.log(email);
