@@ -1,12 +1,25 @@
-const recipient = "James";
-const sender = "Christos";
+// const credits = 1;
 
-const email = `
-    Hey ${recipient}! 
+// if(credits) {
+//     console.log("Let's play 🎰")
+// }else{
+//     console.log("Sorry, you have not credits 😭")
+// }
 
-    How is it going? 
 
-    Cheers ${sender}
-`;
+// // false
+// // null -> how you as developer signalize emtiness
+// // 0
+// // undefined -> how JavaScript signalizes emptiness
+// // NaN
+// // ""
 
-console.log(email);
+
+// false
+// true
+// true
+// false
+// true
+// false
+
+console.log(Boolean())
