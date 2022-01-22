@@ -1,25 +1,9 @@
-// const credits = 1;
-
-// if(credits) {
-//     console.log("Let's play 🎰")
-// }else{
-//     console.log("Sorry, you have not credits 😭")
-// }
+let myArray = ["Chris", "Stylidis"]
 
 
-// // false
-// // null -> how you as developer signalize emtiness
-// // 0
-// // undefined -> how JavaScript signalizes emptiness
-// // NaN
-// // ""
+function clearArray(target){
+    target = []
+}
 
+console.log(myArray)
 
-// false
-// true
-// true
-// false
-// true
-// false
-
-console.log(Boolean())
