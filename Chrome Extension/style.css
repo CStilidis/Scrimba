@@ -13,7 +13,8 @@ body {
   box-sizing: border-box;
 }
 
-#input-btn {
+#input-btn,
+#tab-btn {
   margin-top: 4px;
   padding: 10px 20px;
   background-color: #5f9341;

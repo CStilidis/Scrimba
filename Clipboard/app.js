@@ -1,9 +1,7 @@
-let myArray = ["Chris", "Stylidis"]
+let myArray = ["Christos", "Stylidis"]
 
-
-function clearArray(target){
-    target = []
+function getFirst(array) {
+    console.log(array[0])
 }
 
-console.log(myArray)
-
+getFirst(myArray)
