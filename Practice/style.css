@@ -1,14 +1,21 @@
 body{
-    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: whitesmoke;
+    text-align: center;
+    color: #130e0f;
 }
 
-#btn-el{
-    margin: 10px auto;
-    display: block;
-    padding: 10px 20px;
-    background-color: rgb(212, 132, 148);
-    color: black;
-    font-weight: bold;
-    border-radius: 10px;
-    border: 1px solid black;
+h1 {
+    font-weight: 200;
+    letter-spacing: 2px; 
+}
+
+#container {
+    width: 100;
+}
+
+.team-img {
+    width: 100px;
+    border-radius: 100%;
+    margin: 10px;
 }
