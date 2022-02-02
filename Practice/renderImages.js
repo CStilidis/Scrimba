@@ -7,12 +7,11 @@ const imgs = [
 const containerEl = document.getElementById("container")
 
 function renderImages(imgs) {
-    let htmlContent = 
+    let imgsDOM = ""
     for(i=0;i<imgs.length;i++) {
-        containerEl.innerHTML += `
-        <img src=${imgs[i]} class="team-img"> 
-        `;
+         imgsDOM += `<img alt="Employee in the company" src=${imgs[i]} class="team-img"> `;
     }
+    containerEl.innerHTML = imgsDOM
 }
 
 renderImages(imgs)
