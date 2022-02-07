@@ -14,16 +14,29 @@ const animalMethods = {
 }
 
 function Animal (name, energy) {
-    let animal = {}
+    let animal = Object.create(animalMethods)
     animal.name = name
     animal.energy = energy
-    animal.eat = animalMethods.eat
-    animal.sleep = animalMethods.sleep
-    animal.play = animalMethods.play
-    
     return animal
 
 }
 
 const leo = Animal("Leo", 7)
 const snoop = Animal("Snoop", 10)
+
+leo.eat(10)
+snoop.play(5)
+
+// const parent = {
+//     name: 'Stacey',
+//     age: 35,
+//     heritage: 'Irish'
+// }
+
+// const child = Object.create(parent)
+// child.name = 'Ryan'
+// child.age = 7
+
+// console.log(child.name);
+// console.log(child.age);
+// console.log(child.heritage);
