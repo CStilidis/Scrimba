@@ -1,7 +1,9 @@
-let myArray = ["Christos", "Stylidis"]
+let myArray = ["Christos", "Stylidis"];
 
 function getFirst(array) {
-    console.log(array[0])
+  console.log(array[0]);
 }
 
-getFirst(myArray)
+getFirst(myArray);
+
+console.log("Hello world!");
