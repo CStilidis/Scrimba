@@ -1,9 +1,22 @@
-let myArray = ["Christos", "Stylidis"];
+let animal = {};
+animal.name = "Leo";
+animal.energy = 10;
 
-function getFirst(array) {
-  console.log(array[0]);
-}
+animal.eat = function (amount) {
+  console.log(`${this.name}: is eating.`);
+  this.energy += amount;
+};
 
-getFirst(myArray);
+animal.sleep = function (length) {
+  console.log(`${this.name}: is sleeping.`);
+  this.energy += length;
+};
 
-console.log("Hello world!");
+animal.play = function (length) {
+  console.log(`${this.name}: is playing.`);
+  this.energy -= length;
+};
+
+animal.eat(10)
+
+console.log(animal.energy);
