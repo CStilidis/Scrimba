@@ -1,12 +1,6 @@
-function Animal (name, energy) {
-  this.name = name;
-  this.energy = energy;
+Object.create = function(objectOtDelegateTo) {
+  function fn(){};
+  fn.prototype = objectOtDelegateTo
+  return new fn()
 }
-
-function user() {}
-
-const chris = new Animal('Chris', 10);
-
-
-
 
