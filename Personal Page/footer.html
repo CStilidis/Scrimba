@@ -1,37 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Footer</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-.myIcon:hover {
-  border-radius: 8px;
-  box-shadow: 1px 3px 0 #2c232e;
+  <head>
+    <title>Font Awesome Icons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      .myIcon:hover {
+        border-radius: 15%;
+        box-shadow: 1px 3px 0 #2c232e;
         transform: translate(-4px, -4px);
       }
 
-      .myIcon{
+      .myIcon {
         transition: all 0.14s ease-out;
       }
-</style>
-</head>
-<body>
-  <a href="https://twitter.com/CStilidis" target="_blank"><i class="fa fa-twitter myIcon" style="font-size:36px; color: #00acee;"></i></a>
-  &nbsp; &nbsp; &nbsp;
-  
+      .column {
+  float: left;
+        width: 60px;
+}
 
-
-
-  <a href="https://github.com/CStilidis" target="_blank"><i class="fa fa-github myIcon" style="font-size:36px; color: #171515;"></i></a>
-&nbsp; &nbsp; &nbsp;
-
-
-
-<a href="https://www.linkedin.com/in/chris-stilidis/" target="_blank"><i class="fa fa-linkedin myIcon" style="font-size:36px; color: #0072b1;"></i></a>
-&nbsp; &nbsp; &nbsp;
-
-
-
-</body>
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column">
+        <a href="https://www.upwork.com/freelancers/christos" target="_blank"
+        ><img
+          class="myIcon myIcon1"
+          src="http://drive.google.com/uc?export=view&id=10vKMkV6aVwOeBdVQjXUx0z5vsCP-6BD8"
+          width="36px"
+      /></a>
+      </div>
+      <div class="column">
+        <a href="https://www.linkedin.com/in/chris-stilidis/" target="_blank"
+        ><i
+          class="fa fa-linkedin myIcon"
+          style="font-size: 36px; color: #0072b1"
+        ></i
+      ></a>
+      </div>
+      <div class="column">
+        <a href="https://github.com/CStilidis" target="_blank"
+        ><i
+          class="fa fa-github myIcon"
+          style="font-size: 36px; color: #171515"
+        ></i
+      ></a>
+      </div>
+      <div class="column">
+        <a href="https://twitter.com/CStilidis" target="_blank"
+        ><i
+          class="fa fa-twitter myIcon"
+          style="font-size: 36px; color: #00acee"
+        ></i
+      ></a>
+      </div>
+    </div>
+  </body>
 </html>
